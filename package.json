@@ -1,0 +1,21 @@
+{
+  "name": "badhook",
+  "version": "0.1.0",
+  "description": "A light webhook to deploy or run bash on linux server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webhook",
+    "linux",
+    "deploy"
+  ],
+  "author": "LLQ",
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7",
+    "util": "^0.10.3"
+  }
+}
