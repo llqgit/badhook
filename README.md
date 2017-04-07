@@ -56,6 +56,22 @@ http://123.456.78.9:8080/project_dir_1
 http://123.456.78.9:8080/project_dir_2
 ```
 
+### password
+
+If the webhook request have a **password** option
+You can set it in the **config.js**.
+
+```javascript
+{
+  port: 8080,
+  password: 'password',
+  events: ['push'],
+  origin: ['github', 'gitlab', 'coding'],
+  path: '/i_am_a_webhook',
+  cmd: 'cd /usr/project/test; git pull',
+};
+```
+
 ## Author
 
 > LLQ 2016
